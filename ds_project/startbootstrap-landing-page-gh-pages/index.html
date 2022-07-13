@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#HOME">Elastic Searchers</a>
+                <a class="nav-link" href="#ABOUT">About</a>
+                <a class="nav-link" href="#VISUALIZATIONS">Visualizations</a>
+                <a class="nav-link" href="#MODELS">Models</a>
+                <a class="nav-link" href="#EVALUATION">Evaluate</a>
+                <a class="nav-link" href="#TEAM">Team</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <h1 class="mb-5">Quickly find accurate flight price info from wherever you are, at any time!</h1>
+                            <a class="btn btn-primary btn-xl text-uppercase" href="#EVALUATION">evaluate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Icons Grid-->
+        <section class="features-icons bg-light text-center" id = 'ABOUT'>
+            <div class="container">
+                <div class="row">
+                <h1>About</h1>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                            <h3>Our Product</h3>
+                            <p class="lead mb-0">This project will take the flight data you enter and use it to predict prices for airline tickets. Inputted data can include length, when the flight leaves, what time the flight leaves, and several other pieces of information.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
+                            <h3>Our Goal</h3>
+                            <p class="lead mb-0">Making travel plans can be difficult and expensive. When creating this project, we wanted to provide people with better planning when it comes to airline flights, whether that is organization or budgeting.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                            <h3>Our Process</h3>
+                            <p class="lead mb-0">To begin our project, we reviewed the data set and started off by removing the flight number, source and destination city. Instead of those, we added a distance column that was far more useful!
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image Showcases-->
+        <section class="showcase" class="ex1" id="VISUALIZATIONS">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                  <iframe height="600" src="airline.html" title="Airline" width="100%"class="col-lg-6 order-lg-1 my-auto showcase-text"></iframe>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Understanding our Data<span style='font-family:Verdana'>    </span></h2>
+                        <p class="lead mb-0">Our dataset consists of six different airlines. This pie chart visualizes the percentage of each airline present. We can clearly see that Vistara is almost half the data, while AirAsia is minor. This could potentially affect the predictions if your airline does not compare.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <iframe height="600" src="days.html" title="Days" width="100%" class="col-lg-6 order-lg-1 my-auto showcase-text"></iframe>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Days until Flight</h2>
+                        <p class="lead mb-0">This scatter plot shows a relationship between the number of days left to buy a ticket and their price. We can see that there tend to be significantly fewer flights just days before. It also tells us that Vistara appears to be a more expensive airline, while AirAsia is on the cheaper side.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                  <iframe height="600" src="average.html" title="Average" width="100%" class="col-lg-6 text-white showcase-img"></iframe>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Average Pricing</h2>
+                        <p class="lead mb-0">This bar graph shows the average pricing of each airline. Once again we can see Vistara as #1, followed by Air India. The others are not nearly as expensive but that could be due to our dataset favoring Vistara overall.</p>
+                </div>
+              </div>
+              
+                              <div class="row g-0">
+                  <iframe height="600" src="takeoff.html" title="Takeoff" width="100%" class="col-lg-6 text-white showcase-img"></iframe>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Time of Takeoff</h2>
+                        <p class="lead mb-0">When purchasing a flight, most people tend to care about what time it takes off and arrives at the destination. So the airline could use that to raise or lower the pricing. This graph shows if that is the case. It also shows how there are more flights in the evening opposed to the minuscule number of late night flights.</p>
+                </div>
+              </div>
+              
+
+              
+                             <div class="row g-0">
+                    <iframe class="col-lg-6 text-white showcase-img" height="600" width="100%" src="https://cocalc5.ai-camp.dev/7b851546-01cd-4477-a30c-927567abb7ed/raw/.smc/jupyter/blobs/a.png?sha1=68bcbe465b429cb2640bfb3279fefadbf90eb752&attempts=0"></iframe>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Understanding our Heatmap</h2>
+                        <p class="lead mb-0">This heatmap makes for easy understanding of  how the flight characteristics affect each other. It does not only show how the price is changed, it shows if distance, days left to purchase, and duration are, or are not, directly connected.</p>
+                    </div>
+                </div>
+              
+
+                </div>
+               
+          <div class="row g-0">
+                    <iframe height="600" src="duration.html" title="Duration" width="100%" class="col-lg-6 text-white showcase-img"></iframe>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Length Affecting Price</h2>
+                        <p class="lead mb-0">Our last scatter plot shows a correlation between the duration of a flight and its price. The duration of a flight is determined by the place you are traveling to, so of course it affects the price. But the airline you are traveling with affects the price even more. That is why Vistara always seems to be leading the price.</p>
+                    </div>
+          </div>
+        </section>
+
+       <!-- Models-->
+       <section class="features-icons bg-light text-center" id="MODELS">
+       <h1> <div style='text-align:center' class = 'px-5 a'>Machine Learning Models</div> </h1>
+        <h3 style='text-align:center' class = 'px-5 a'>
+          Linear Regression
+      </h3>
+
+        <p style="font-size:150%;" class = 'px-5' class="a">Linear Regression is a model that finds one line to best match all the data points. This was our starting point, but we realized that since our data has a huge range, this was not the most accurate of our models. Our recall score was 0.91.</p>
+        <h3 style='text-align:center' class = 'px-5 a'>
+          Ridge Regression
+      </h3>
+        <p style="font-size:150%;" class = 'px-5' class="a">Ridge Regressions are used on multicollinear data, meaning there are more than two correlated independent variables. Since it is multicollinear, there is a smaller chance of overfitting data. This model worked well with our data because multiple aspects of the flight affected the pricing. Our overall results for a ridge regression had an R-squared of 0.907.
+</p>
+      <h3 style='text-align:center' class = 'px-5 a'>
+        Random Forest Regressor
+      </h3>
+        <p style="font-size:150%;" class = 'px-5' class="a">Random Forest Regressors are sets of decision trees. Each input will go through our two-hundred individual trees; a price will be given based on the average output of the trees. This model worked well due to the complicated relationships between data points, and had an overall R-squared score of 0.978.</p>
+      <h3 style='text-align:center' class = 'px-5 a'>
+        MLP Regressor
+      </h3>
+      <p style="font-size:150%;" class = 'px-5' class="a">The Multi-Layer Perceptron is a ml model that uses a neural network to generate outputs by studying and refining past inputs. When using this to predict prices, we found that the data was too large for it to run. Unfortunately we were unable to get precise predictions with this model, the results only had a recall score of 0.819.</p>
+     </section>
+
+
+     <!-- Conclusion-->
+     <section class="features-icons bg-light text-center" id = 'CONCLUSION'>
+       <div class="row g-0">
+         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(https://images.unsplash.com/photo-1587019158091-1a103c5dd17f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmxpZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80)"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2 style='text-align:center' class = 'px-5 a'>Conclusion</h2>
+                        <p  style="font-size:150%;" class="lead mb-5 px-5 a" >In terms of models, the random forest regressor is able to best predict flight prices; the several decision trees worked well with our dataset because multiple factors affected the outcomes. Besides that, we learned that the main factors when it comes to pricing is the airline and time of travel.</p>
+                       <h3 style='text-align:center' class = 'px-5 a'>
+                        So What?
+                      </h3>
+                      <p  style="font-size:150%;" class="lead mb-0 px-5 a font-weight-bold">So, next time you are booking a flight, think of all the little factors, and try to predict the price for a better planning and budgeting experience!!</p>
+                    </div>
+                </div>
+      <br>
+      </section>
+      <!-- Call to Action-->
+        <section class="call-to-action text-white text-center" id="EVALUATION">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-4">Learn about your next flight now!!</h2>
+                        <!-- Signup form-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
+                                </div>
+                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Go</button></div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    <p>To activate this form, sign up at</p>
+                                    <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Testimonials-->
+        <section class="testimonials text-center bg-light" id ='TEAM'>
+            <div class="container">
+                <h2 class="mb-5">The Elastic Searchers</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Gunnar Erickson</h5>
+                            <p class=" font-weight-light mb-0">"..."
+</p>
+                        </div>
+                    </div>
+                   <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Riley Thomas Wayt</h5>
+                            <p class="font-weight-light mb-0">"Theater kid and guitar enthusiast"</p>
+                        </div>
+                    </div>
+                   <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Gianna Bethurum</h5>
+                            <p class="font-weight-light mb-0">"..."</p>
+                        </div>
+                    </div>
+                   <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Jaidan Chung</h5>
+                            <p class="font-weight-light mb-0">"..."</p>
+                        </div>
+                    </div>
+                   <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Anayesca Cruz</h5>
+                            <p class="font-weight-light mb-0">"Love, purpose and food"</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <h5>Nathan Sanchez</h5>
+                            <p class="font-weight-light mb-0">"..."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/resume_profile.jpg" alt="..." />
+                            <h5>Emma Chen</h5>
+                            <p class="font-weight-light mb-0">Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+         
